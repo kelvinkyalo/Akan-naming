@@ -6,133 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js"></script>
-    <title>Akan Name Generator</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Akan Names</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#home">Home</a>
+        <a href="#contacts">Contacts</a>
+        </a>
+    </nav>
+    <div id="about">
+        <h1>Akan names.</h1>
+        <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively
+            (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or Kweku, Akua
+            (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated with God’).</p>
+        <img src="images/naming1.jpg" height="400px" width="400px">
+        <img src="images/namig 4.jpg" height="400px" width="500px">
+
+        <img src="images/naming2.jpg" height="400px" width="400px">
+
+
+    </div>
     <div id="home">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Akan Naming</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#home">Home </a>
-                    <a class="nav-item nav-link" href="#contacts">Contacts</a>
-                </div>
+        <h1>Enter your details in the form below to get your Akan name</h1>
+        <form>
+            <label>Year</label><br>
+            <input type="text" id="year" placeholder="Year born"><br>
+            <div class="label">
+                <label>Month</label><br>
+                <input type="text" id="month" placeholder="Month born"><br>
+                <label>Day</label><br>
+                <input type="text" id="day" placeholder="Day born"><br>
+                <label>Gender</label><br>
+                <input type="radio" id="gender" name="gender" value="male">Male<br>
+                <input type="radio" id="gender" name="gender" value="female">Female<br>
+                <input type="submit" onclick="giveAkanName()" value="Submit">
             </div>
-        </nav>
+        </form>
     </div>
+    <div id="contacts">
+        <h1>Contact form</h1>
+        <p>Fill this form for us to give you a feedback on whatever issues or concerns that you may have;</p>
 
-    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
-        <div class="container h100">
-            <div class="contentBox h100">
-                <div>
-                    <h1>Akan names Generator</h1>
-                    <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively
-                        (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or
-                        Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated
-                        with God’).</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="sec1" id="adventure">
         <div class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText text-center">
-                        <div id="about">
-                            <h2>About Akan names</h2>
-                            <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.
-                                Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
-
-                        </div>
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Full Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name">
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="placeBox">
-                        <div class="imgBx">
-                            <img src="images/naming1.jpg" class="img-fluid">
-
-                        </div>
-                        <div class="content">
-                            <h3>Akan Naming</h3>
-                        </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Phone number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your phone number.">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="placeBox">
-                        <div class="imgBx">
-                            <!-- <img src="https://bit.ly/39y0lSJ" class="img-fluid"> -->
-                        </div>
-                        <div class="content">
-                            <h3>Akan Naming</h3>
-                        </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your email.">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="placeBox">
-                        <div class="imgBx">
-                            <img src="images/naming2.jpg" class="img-fluid">
-                        </div>
-                        <div class="content">
-                            <h3>Akan Naming</h3>
-                        </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Feedback concernig our  akan naming webpage or requests" style="height:200px"></textarea>
                     </div>
                 </div>
-            </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </div>
-    </section>
-    <section class="sec2" id="about">
-        <div class="custom-file">
-            <div class="container h100">
-                <form class="was-validated" onsubmit="return false">
-                    <div class="form-group">
-                        <label for="day">Birthday:</label>
-                        <input type="number" class="form-control" id="day" placeholder="Enter day of birth" min="1" max="31" onchange="outPut" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="month">Month:</label>
-                        <input type="number" class="form-control" id="month" placeholder="Enter month of birth" min="1" max="31" onchange="outPut" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="year">Year:</label>
-                        <input type="number" class="form-control" id="year" placeholder="Enter year of birth" min="1900" max="2020" onchange="outPut" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="checked">
-                        <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="female" checked>male
-                  </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label" for="gender">
-                    <input type="radio" id="gender" name="gender" value="male" checked>female
-                  </label>
-                    </div>
-                    <div class="alert alert-success alert-dismissible">
-                        <button type="submit" class="btn" onclick="output()">Submit</button>
-                        <div id="outcome">output</div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    </div>
