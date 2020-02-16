@@ -1,15 +1,20 @@
-# My portfolio
+# Project name.
  AKAN NAMING
- ## languages used
+## Project description;
+This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
+## About me;
+I am currently a student at Moringa School pursuing a course in Software Engineering.
+ ## Technologies used;
  HTML
  CSS
- BOOTSTRAP
  JAVASCRIPT
- ### Technical requirements
- Any web browser.
- #### Content information
+ ### Set up instructions
+ Can and will run on any web browser.
+ #### Contact information;
+You can contact me at Kelvinchax@gmail.com or kelvinkyalo777@gmail.com .
+ #### License and copyrigt information;
  MIT License
-Copyright (c) 2020 Ian Adika
+Copyright (c) 2020 akan naming cbc.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
