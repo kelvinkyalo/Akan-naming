@@ -1,18 +1,10 @@
 # Project name.
  AKAN NAMING
-<<<<<<< HEAD
-
 ## Project description; 
-
 This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
-
-## About me; 
-
-=======
 ## Project description; 
 This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
 ## About me; 
->>>>>>> gh-pages
 I am currently a student at Moringa School pursuing a course in Software Engineering.
  ## Technologies used; 
  HTML
