@@ -11,7 +11,9 @@ I am currently a student at Moringa School pursuing a course in Software Enginee
  CSS
  JAVASCRIPT
  ## Behavior Driven Development(BDD);
- input   | output
+ input 
+ Behavior 
+  The program should handle| output
  --------|----------
  day     |akan name
  month   |akan
