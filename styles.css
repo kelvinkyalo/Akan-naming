@@ -11,8 +11,6 @@
     padding-bottom: 210px;
 }
 
-
-/*
 nav a {
     color: darkblue;
     padding: 15px 15px;
@@ -34,6 +32,8 @@ nav a.active {
     color: white;
 }
 
+
+/*
 input[type=text],
 select,
 textarea {
