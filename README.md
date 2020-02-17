@@ -1,5 +1,6 @@
 # Project name.
  AKAN NAMING
+<<<<<<< HEAD
 
 ## Project description; 
 
@@ -7,11 +8,24 @@ This project was meant to take user input  of their birthdate and process it and
 
 ## About me; 
 
+=======
+## Project description; 
+This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
+## About me; 
+>>>>>>> gh-pages
 I am currently a student at Moringa School pursuing a course in Software Engineering.
  ## Technologies used; 
  HTML
  CSS
  JAVASCRIPT
+ ## Behavior Driven Development(BDD); 
+ | Behavior
+ The program should handle; | Input example 
+ When it receives ; | output returns; |
+| ------------- |:-------------:| -----:|
+|users day of birth |1996/08/20 | Kwabena |
+| have different output for male and female   |female born on 1996/08/20    |  Abenaa  |
+| have different output for male and female  |  male 1996/08/20      |    kwabena |
  ### Set up instructions
  Can and will run on any web browser.
  #### Contact information; 
