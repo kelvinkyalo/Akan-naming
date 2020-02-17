@@ -10,7 +10,11 @@ I am currently a student at Moringa School pursuing a course in Software Enginee
  HTML
  CSS
  JAVASCRIPT
- ## Behavior Driven Development(BDD); 
+ ## Behavior Driven Development(BDD);
+ input   | output
+ --------|----------
+ day     |akan name
+ month   |akan
 | Behavior 
   The program should handle|Input example|output returns;|
 | ------------------------ |:-----------:|-------------:|
