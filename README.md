@@ -19,13 +19,13 @@ I am currently a student at Moringa School pursuing a course in Software Enginee
  CSS
  JAVASCRIPT
  ## Behavior Driven Development(BDD); 
- | Behavior
- The program should handle; | Input example 
- When it receives ; | output returns; |
-| ------------- |:-------------:| -----:|
-|users day of birth |1996/08/20 | Kwabena |
-| have different output for male and female   |female born on 1996/08/20    |  Abenaa  |
-| have different output for male and female  |  male 1996/08/20      |    kwabena |
+| Behavior 
+  The program should handle|Input example|output returns;|
+| ------------------------ |:-----------:|-------------:|
+| users day of birth       | 1996/08/20  | Kwabena      |
+| | have different output for male and female    | female born on 1996/08/20|kwabena|
+| | have different output for male and female| male born on 1996/08/20 |Abenaa|
+
  ### Set up instructions
  Can and will run on any web browser.
  #### Contact information; 
