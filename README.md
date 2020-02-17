@@ -11,18 +11,11 @@ I am currently a student at Moringa School pursuing a course in Software Enginee
  CSS
  JAVASCRIPT
  ## Behavior Driven Development(BDD);
- input 
- Behavior 
-  The program should handle| output
- --------|----------
- day     |akan name
- month   |akan
-| Behavior 
-  The program should handle|Input example|output returns;|
-| ------------------------ |:-----------:|-------------:|
-| users day of birth       | 1996/08/20  | Kwabena      |
-| | have different output for male and female    | female born on 1996/08/20|kwabena|
-| | have different output for male and female| male born on 1996/08/20 |Abenaa|
+ Behavior | input     |output
+ -------- |-----------|----------
+ birthday |1996/08/20 |Kwabena 
+ male     |1996/08/20 |Kwabena
+ female   |1996/08/20 |Abenaa
 
  ### Set up instructions
  Can and will run on any web browser.
