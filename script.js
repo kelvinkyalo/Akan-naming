@@ -11,7 +11,6 @@ function giveAkanName() {
     var dayBorn = date.getDay();
     var akanName;
     var validate = (year > 0 && (month > 0 && month <= 12) && (day > 0 && day <= 31));
-    var validateGender = (gender !== "male" && gender !== "female");
     if (year <= 0) {
         alert("please enter a valid year");
     } else if (month <= 0 || month > 12) {

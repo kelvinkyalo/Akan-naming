@@ -4,21 +4,18 @@
 This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
 ## About me; 
 I am currently a student at Moringa School pursuing a course in Software Engineering.
-## Project description; 
-This project was meant to take user input  of their birthdate and process it and give them the day they were born and their akan name from Ghana naming culture depending on their gender.
-## About me;
-I am currently a student at Moringa School pursuing a course in Software Engineering.
  ## Technologies used; 
  HTML
  CSS
  JAVASCRIPT
  ## Behavior Driven Development(BDD); 
- Behavior 
- The program should handle                |Input example             |output returns
- -----------------------------------------|--------------------------|----------------
- users day of birth                       | 1996/08/20               | Kwabena      
- have different output for male and female| female born on 1996/08/20|kwabena
- have different output for male and female| male born on 1996/08/20  |Abenaa
+ 
+ Behavior | input     |output
+ -------- |-----------|----------
+ birthday |1996/08/20 |Kwabena 
+ male     |1996/08/20 |Kwabena
+ female   |1996/08/20 |Abenaa
+
  ### Set up instructions
  Can and will run on any web browser.
  #### Contact information; 
